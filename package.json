@@ -1,7 +1,7 @@
 {
   "name": "mozbet-firebase",
   "version": "1.0.0",
-  "description": "Backend da MozBet com Firebase Firestore",
+  "description": "Backend do MozBet com Firebase Firestore",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -10,5 +10,17 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "firebase-admin": "^11.10.1"
-  }
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "mozbet",
+    "backend",
+    "firebase",
+    "firestore",
+    "api"
+  ],
+  "author": "Alex Macuvel",
+  "license": "MIT"
 }
