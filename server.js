@@ -28,7 +28,8 @@ app.get('/', (req, res) => {
   res.send('MozBet com Firebase está online!');
 });
 
-const PORT = process.env.PORT || 5000;
+// Porta dinâmica exigida pelo Glitch
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
