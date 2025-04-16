@@ -33,3 +33,10 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
+const authRoutes = require('./routes/auth');
+const betRoutes = require('./routes/bets');
+const walletRoutes = require('./routes/wallet');
+
+app.use('/api', authRoutes);
+app.use('/api', betRoutes);
+app.use('/api', walletRoutes);
