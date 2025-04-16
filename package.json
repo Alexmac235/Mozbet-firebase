@@ -1,0 +1,14 @@
+{
+  "name": "mozbet-firebase",
+  "version": "1.0.0",
+  "description": "Backend da MozBet com Firebase Firestore",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.10.1"
+  }
+}
